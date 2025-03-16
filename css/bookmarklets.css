@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.bookmarklets {
+    position: absolute;
+    left: 225px;
+    top: 0px;
+    width: 545px; /* Set the width of the button */
+    height: 125px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100px; /* Set the font size of the button */
+    cursor: pointer;
+}
+.cloak {
+    position: absolute;
+    left: 5px;
+    top: 250px;
+    width: 85%; /* Set the width of the button */
+    height: 90px; /* Set the height of the button */
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px; /* Set the font size of the button */
+    cursor: pointer;
+}
+.others {
+    position: absolute;
+    left: 480px;
+    top: 400px;
+    width: 180px; /* Set the width of the button */
+    height: 30px; /* Set the height of the button */
+    background-color: #232324;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px; /* Set the font size of the button */
+    cursor: pointer;
+}

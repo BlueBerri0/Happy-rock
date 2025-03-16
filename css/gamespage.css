@@ -1,0 +1,112 @@
+body {
+            background-color: black; /* Set the background color */
+        }
+
+        .home-button {
+            position: fixed;
+            left: 5px;
+            top: 60px;
+            width: 90px; /* Set the width of the button */
+            height: 90px; /* Set the height of the button */
+            padding: 10px 20px;
+            background-color: #232324;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 50px; /* Set the font size of the button */
+            cursor: pointer;
+        }
+
+        .games-head {
+            position: absolute;
+            left: 375px;
+            top: 0px;
+            width: 305px; /* Set the width of the button */
+            height: 125px; /* Set the height of the button */
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 100px; /* Set the font size of the button */
+            cursor: pointer;
+        }
+
+        .side-games {
+            position: fixed;
+            left: 5px;
+            top: 190px;
+            width: 90px; /* Set the width of the button */
+            height: 90px; /* Set the height of the button */
+            padding: 10px 20px;
+            background-color: #232324;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-size: 50px; /* Set the font size of the button */
+            cursor: pointer;
+        }
+
+        .motox3m, .learn2fly2, .ragdollarchers, .one-v-one-lol, .blockblast, .slowroads, .driftboss, .twenty48, .btd4, .prison {
+            position: absolute;
+            display: flex;
+            align-items: center; /* Center the image and text vertically */
+            justify-content: center; /* Center the image and text horizontally, if needed */
+            width: 280px; /* Set the width of the button */
+            height: 180px; /* Set the height of the button */
+            background-color: blue;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-size: 50px; /* Set the font size of the button */
+            cursor: pointer;
+            overflow: hidden; /* Hide the overflowing parts of the image */
+        }
+
+        .motox3m {
+            left: 110px;
+            top: 240px;
+        }
+        .learn2fly2 {
+            left: 400px;
+            top: 240px;
+        }
+        .ragdollarchers {
+            left: 690px;
+            top: 240px;
+        }
+        .one-v-one-lol {
+            left: 110px;
+            top: 430px;
+        }
+        .blockblast {
+            left: 400px;
+            top: 430px;
+        }
+        .btd4 {
+  left: 690px;
+  top: 430px;
+}
+.driftboss {
+  left: 110px;
+  top: 620px;
+}
+.slowroads {
+  left: 400px;
+  top: 620px;
+}
+.twenty48{
+  left: 690px;
+  top: 620px;
+}
+.prison {
+  left: 110px;
+  top: 810px;
+}
+
+        .motox3m img, .learn2fly2 img, .ragdollarchers img, .one-v-one-lol img, .blockblast img, .driftboss img, .slowroads img, .btd4 img, .twenty48 img, .prison img {
+            width: 157%;
+            height: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
